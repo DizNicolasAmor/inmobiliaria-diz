@@ -1,0 +1,26 @@
+//grid
+.grid
+  width: 100%
+  overflow: hidden
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-template-areas: "filter filter filter filter"  "products products products products"
+
+#filter
+  grid-area: filter
+
+#products
+  grid-area: products
+
+@media screen and (min-width: 450px)
+  .grid
+    min-width: 300px
+    grid-template-areas: "filter products products products"
+
+//padding
+#inicio, #institucional, #preguntas, #contacto,
+#filter, #products, #footer, #propiedad-id
+  padding: 50px 15%
+
+#propiedades
+  padding: 50px 0px 0px 0px

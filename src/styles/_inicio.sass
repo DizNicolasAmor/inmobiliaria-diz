@@ -1,0 +1,35 @@
+//inicio
+.icon-inicio
+  color: white
+  background: DarkGreen
+  padding: 15px
+  border-radius: 15px
+  margin: 15px
+#villa-gesell
+  font-family: Brush Script MT
+  font-size: xx-large
+  padding: 30px 10px
+  letter-spacing: 1px
+  margin-top: 30px
+.color-black
+  color: black
+  &:hover
+    color: black
+
+.inicioGrid
+  width: 100%
+  overflow: hidden
+  display: grid
+  grid-template-columns: repeat(1, 1fr)
+  grid-template-areas: "logo gesell"
+#inicioLogo
+  grid-area: logo
+
+#villa-gesell
+  grid-area: gesell
+
+@media screen and (max-width: 500px)
+  .inicioGrid
+    width: 100%
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-areas: "logo logo" "gesell gesell"
