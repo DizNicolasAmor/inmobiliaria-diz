@@ -24,12 +24,12 @@ class App extends Component {
           <div id="content-wraper">
             <Nav />
             <div>
-              <Route exact path="/" component={Inicio} />
-              <Route path="/institucional" component={Institucional} />
-              <Route path="/propiedades" component={Propiedades} />
-              <Route path="/propiedad/:propiedadId" component={PropiedadId} />
-              <Route path="/preguntas-frecuentes" component={Preguntas} />
-              <Route path="/contacto" component={Contacto} />
+              <Route exact path="/inmobiliaria-diz" component={Inicio} />
+              <Route path="/inmobiliaria-diz/institucional" component={Institucional} />
+              <Route path="/inmobiliaria-diz/propiedades" component={Propiedades} />
+              <Route path="/inmobiliaria-diz/propiedad/:propiedadId" component={PropiedadId} />
+              <Route path="/inmobiliaria-diz/preguntas-frecuentes" component={Preguntas} />
+              <Route path="/inmobiliaria-diz/contacto" component={Contacto} />
             </div>
           </div>
           <Footer />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Product = (props) => {
     return (
-      <Link   to={`/propiedad/${props.id}`}>
+      <Link   to={`/inmobiliaria-diz/propiedad/${props.id}`}>
         <div className="subcontainer">
           <div className="product-container">
             <h1>

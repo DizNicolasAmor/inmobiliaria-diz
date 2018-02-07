@@ -25,31 +25,31 @@ class Nav extends Component {
 	        <div className="navbar-collapse collapse">
 	          <ul className="nav navbar-nav navbar-right">
 	            <li>
-		            <Link 	to="/"
+		            <Link 	to="/inmobiliaria-diz"
 					        className={"nav-li nav-li-active"}
 					        id="nav-inicio"
 		            		>Inicio</Link>
 	            </li>
 	            <li>
-		            <Link 	to="/institucional"
+		            <Link 	to="/inmobiliaria-diz/institucional"
 					        className={"nav-li"}
 					        id="nav-institucional"
 		            		>Institucional</Link>
 	            </li>
 	            <li>
-		            <Link 	to="/propiedades"
+		            <Link 	to="/inmobiliaria-diz/propiedades"
 					        className={"nav-li"}
 					        id="nav-propiedades"
 		            		>Propiedades</Link>
 	            </li>
 	            <li>
-		            <Link 	to="/preguntas-frecuentes"
+		            <Link 	to="/inmobiliaria-diz/preguntas-frecuentes"
 					        className={"nav-li"}
 					        id="nav-preguntas"
 		            		>Preguntas Frecuentes</Link>
 	            </li>
 	            <li>
-		            <Link 	to="/contacto"
+		            <Link 	to="/inmobiliaria-diz/contacto"
 					        className={"nav-li"}
 					        id="nav-contacto"
 		            		>Contacto</Link>
