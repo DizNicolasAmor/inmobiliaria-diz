@@ -1,0 +1,30 @@
+{
+    "brand": "Inmobiliaria Diz",
+    "sections": [
+        {
+            "sectionId": "inicio",
+            "name": "inicio",
+            "link": "/"
+        },
+        {
+            "sectionId": "propiedades",
+            "name": "propiedades",
+            "link": "/propiedades"
+        },
+        {
+            "sectionId": "institucional",
+            "name": "institucional",
+            "link": "/institucional"
+        },
+        {
+            "sectionId": "preguntas",
+            "name": "preguntas",
+            "link": "/preguntas-frecuentes"
+        },
+        {
+            "sectionId": "contacto",
+            "name": "contacto",
+            "link": "/contacto"
+        }
+    ]
+}
