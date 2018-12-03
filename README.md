@@ -6,7 +6,7 @@ https://github.com/DizNicolasAmor
 
 You can see this project here:
 
-* https://diznicolasamor.github.io/inmobiliaria-diz/
+* http://real-estate-nico.herokuapp.com/
 
 Techs: ReactJS, react-router-dom, a little Redux. 
 
